@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Mixer Page</title>
+	<link href="css/bootstrap.css" rel="stylesheet">	
+	<link href="css/Project.css" rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+	
+	<link rel="stylesheet" media="(max-width: 1600px)" href="example.css" />
+	
+	<style>
+  @media (max-width: 1200px) {
+   #Feed3 {
+    position: relative;
+    top: 0px;
+  }
+  #Feed4 {
+  	position: relative;
+  	top: 0px;
+}
+</style>
+
+	</head>
+		<body>
+		<div class="navigation">
+			<header class="navbar">
+		<ul class="nav nav-pills nav-stacked  navbar navbar-inverse navbar-height="100"">
+		  <li><a href="#">Statistics</a></li>
+		  <li class="active"><a href="#">Mixer</a></li>
+		  <li><a href="#">Other</a></li>
+		</ul>	
+		</header>
+		</div>
+		
+     <div class="jumbotron">
+     	<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-5 col-xs-5 col-sm-5"; id="Feed1">
+					<div class="thumbnail">
+			<video width="275" height="240" controls>
+			  <source src="movie.mp4" type="video/mp4">
+			  <source src="movie.ogg" type="video/ogg">
+			  <object data="movie.mp4" width="275" height="240">
+			    <embed src="movie.swf" width="275" height="240">
+			  </object>
+			</video>
+			</div>
+			  <p>
+			  	<a href="#" class="btn btn-primary" role="button">Send Video</a>
+			    <a href="#" class="btn btn-default" role="button">Send Audio</a>
+			  </p>
+					</div>
+				<div class="col-lg-3 col-md-5 col-xs-5 col-sm-5"; id="Feed2">
+					<div class="thumbnail">
+					<video width="275" height="240" controls>
+			  <source src="movie.mp4" type="video/mp4">
+			  <source src="movie.ogg" type="video/ogg">
+			  <object data="movie.mp4" width="275" height="240">
+			    <embed src="movie.swf" width="275" height="240">
+			  </object>
+			</video>
+		    </div>
+		      <p>
+			  	<a href="#" class="btn btn-primary" role="button">Send Video</a>
+			    <a href="#" class="btn btn-default" role="button">Send Audio</a>
+			   </p>
+					</div>
+				<div class="col-lg-5 col-md-12 col-xs-12 col-sm-12"; id="MainFeed">
+					<video width="640" height="480" controls>
+			     <source src="movie.mp4" type="video/mp4">
+			     <source src="movie.ogg" type="video/ogg">
+			     <object data="movie.mp4" width="640" height="480">
+			    <embed src="movie.swf" width="640" height="480">
+			  </object>
+			</video>
+					</div>
+					
+			<div class="col-lg-3 col-md-6 col-xs-6 col-sm-6"; id="Feed3">
+				<div class="thumbnail">
+			  <video width="275" height="240" controls>
+					  <source src="movie.mp4" type="video/mp4">
+					  <source src="movie.ogg" type="video/ogg">
+					  <object data="movie.mp4" width="275" height="240">
+			    <embed src="movie.swf" width="275" height="240">
+			  </object>
+			</video>
+			</div>
+			<p>
+			<a href="#" class="btn btn-primary" role="button">Send Video</a>
+			<a href="#" class="btn btn-default" role="button">Send Audio</a>
+			</p>
+		 </div>
+		<div class="col-lg-3 col-md-6 col-xs-6 col-sm-6"; id="Feed4">
+			<div class="thumbnail">
+			<video width="275" height="240" controls>
+			  <source src="movie.mp4" type="video/mp4">
+			  <source src="movie.ogg" type="video/ogg">
+			  <object data="movie.mp4" width="275" height="240">
+			    <embed src="movie.swf" width="275" height="240">
+			  </object>
+			</video>	
+		</div>	
+		   <p>
+			  	<a href="#" class="btn btn-primary" role="button">Send Video</a>
+			    <a href="#" class="btn btn-default" role="button">Send Audio</a>
+			  </p>
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+			
+		
+			
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>	
+		</body>
+	</html>
