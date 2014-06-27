@@ -1,0 +1,126 @@
+ 	<!DOCTYPE HTML>
+ 	<html>
+ 	
+ 	<head>
+ 		<title>ProjectTest2</title>
+ 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ 		<meta name="description" content="Description" />
+ 		<link rel="stylesheet" href="Stylesheet Location" type="text/css" />
+ 		<link rel="stylesheet" href="css/bootstrap.min.css">
+ 		<link href="css/bootstrap.css" rel="stylesheet">
+ 		<link href="css/ProjectTest2.css" rel="stylesheet">
+ 		
+ 		<style>
+  @media (max-width: 800px) {
+   #Dropdown {
+    display: none;
+    
+  }
+  #OtherImp {
+  	display:none;
+  }
+}
+</style>
+ 	</head>
+ 	
+ 	<body>
+ 	
+ 		<header>
+ <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#" id="MixNav">Mixer</a></li>
+        <li><a href="#">Statistics</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" id="OtherImp">Other Important Page</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="Dropdown">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+ 		</header>
+ 	
+ 		<h1>Mixer</h1>
+<div class="row">
+  <div class="col-sm-12 col-md-12z">
+    <div class="thumbnail">
+      <img data-src="holder.js/300x300" alt="..."><!-- This is where Main Feed goes-->
+      <div class="caption">
+        <h3>Main Feed</h3>
+        <p><a href="#" class="btn btn-primary" role="button">Send Video</a> <a href="#" class="btn btn-default" role="button">Send Audio</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img data-src="holder.js/300x300" alt="..."><!-- This is where video 1 goes -->
+      <div class="caption">
+        <h3>Feed 1</h3>
+        <p><a href="#" class="btn btn-primary" role="button">Send Video</a> <a href="#" class="btn btn-default" role="button">Send Audio</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img data-src="holder.js/300x300" alt="..."><!-- This is where video 2 goes -->
+      <div class="caption">
+        <h3>Feed 2</h3>
+        <p><a href="#" class="btn btn-primary" role="button">Send Video</a> <a href="#" class="btn btn-default" role="button">Send Audio</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img data-src="holder.js/300x300" alt="..."><!-- This is where video 3 goes -->
+      <div class="caption">
+        <h3>Feed 3</h3>
+        <p><a href="#" class="btn btn-primary" role="button">Send Video</a> <a href="#" class="btn btn-default" role="button">Send Audio</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img data-src="holder.js/300x300" alt="..."><!-- This is where video 4 goes -->
+      <div class="caption">
+        <h3>Feed 4</h3>
+        <p><a href="#" class="btn btn-primary" role="button">Send Video</a> <a href="#" class="btn btn-default" role="button">Send Audio</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img data-src="holder.js/300x300" alt="..."><!-- This is where video 5 goes -->
+      <div class="caption">
+        <h3>Feed 5</h3>
+        <p><a href="#" class="btn btn-primary" role="button">Send Video</a> <a href="#" class="btn btn-default" role="button">Send Audio</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img data-src="holder.js/300x300" alt="..."><!-- This is where video 6 goes -->
+      <div class="caption">
+        <h3>Feed 6</h3>
+        <p><a href="#" class="btn btn-primary" role="button">Send Video</a> <a href="#" class="btn btn-default" role="button">Send Audio</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+ 	
+ 		<footer>
+ 		</footer>
+ 	
+ 	</body>
+ 	
+ 	</html>
