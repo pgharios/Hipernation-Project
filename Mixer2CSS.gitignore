@@ -1,0 +1,8 @@
+.btn-primary {
+  color: #F1C40F;
+  background-color: #111;
+}
+.btn-default {
+	color: #111;
+	background-color: #FC0;
+}
