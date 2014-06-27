@@ -1,0 +1,39 @@
+.navigation {
+	float: left;
+}
+#Feed1 {
+	color:black;
+	background-color:yellow;
+}
+#Toolbar {
+	color:yellow;
+	background-color:black;
+}
+#Feed2 {
+	color:black;
+	background-color:yellow;
+}
+#MainFeed {
+	color:yellow;
+	background-color:black;
+}
+#Feed3 {
+	color:black;
+	background-color:yellow;
+	position: relative;
+  top: -160px;
+}
+#Feed4 {
+	color:black;
+	background-color:yellow;
+	position: relative;
+	top: -160px;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:-30px;
+}
+ body {
+  background-color: #f7f7f7;
+}
